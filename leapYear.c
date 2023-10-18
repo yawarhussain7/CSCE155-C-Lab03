@@ -80,4 +80,9 @@ int isLeapYear(int year) {
   //      The year is stored in the variable year
   //      Your function should return true (1) if it represents a leap year
   //      and false (0) if it does not.
+if(year % 4 &&  year % 100 )
+{
+  
+}
+
 }
