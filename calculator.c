@@ -42,6 +42,15 @@ int main(int argc, char **argv) {
     pirntf("%f",result);
   } else if(choice == 4) {
     //TODO: handle this case (division)
+    if(b>0)
+    {
+      result = a/b;
+      printf("%f", a /b);
+    }
+    else
+    {
+      printf("ERROR divisor is less then 1 \n");
+    }
   } else if(choice == 5) {
     //TODO: handle this case (minimum)
   } else if(choice == 6) {
