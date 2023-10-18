@@ -39,9 +39,10 @@ int main(int argc, char **argv) {
   } else if(choice == 3) {
     //TODO: handle this case (multiplication)
     result = a * b;
-    pirntf("%f",result);
+    printf("%f",result);
   } else if(choice == 4) {
     //TODO: handle this case (division)
+
     if(b>0)
     {
       result = a/b;
@@ -51,10 +52,15 @@ int main(int argc, char **argv) {
     {
       printf("ERROR divisor is less then 1 \n");
     }
+
   } else if(choice == 5) {
     //TODO: handle this case (minimum)
+    result = min(a,b);
+    printf("%f",result);
   } else if(choice == 6) {
     //TODO: handle this case (log_a(b))
+      result = log(b)/log(a);
+      printf("%f",result);
   } else {
     printf("Please input a valid operator next time");
   }
