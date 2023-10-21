@@ -102,6 +102,12 @@ int main(int argc, char **argv)
     totalTax = 29502 + tax * (agi - 172750);
   }
 
+else if(agi >= 329851 && agi <= 418850)
+  {
+    
+    
+  }  
+
 
 
 
