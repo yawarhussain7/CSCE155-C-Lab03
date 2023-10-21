@@ -139,6 +139,13 @@ else if(agi >= 329851 && agi <= 418850)
     tax = tax - childCredit;
 
   }
+
+    else if(agi >= 628300 )
+  {
+    
+    
+
+  }
     
   else 
   {
