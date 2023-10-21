@@ -48,6 +48,12 @@ int main(int argc, char **argv)
 
   }
 
+    else if(agi >= 19901 && agi <= 81050)
+  {
+   
+
+  }
+
 
   printf("AGI:          $%10.2f\n", agi);
   printf("Tax:          $%10.2f\n", tax);
