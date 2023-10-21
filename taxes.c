@@ -50,7 +50,16 @@ int main(int argc, char **argv)
 
     else if(agi >= 19901 && agi <= 81050)
   {
-   
+   if(agi >= 20000 && agi <= 120000 && numChildren == 0)
+    {
+      childCredit = numChildren + 2002.00;
+    }
+    else 
+    {
+      childCredit = numChildren * 2000;
+    }
+
+
 
   }
 
