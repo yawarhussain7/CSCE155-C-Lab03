@@ -106,6 +106,15 @@ else if(agi >= 329851 && agi <= 418850)
   {
     
     
+     if(agi >= 250000 && agi <= 500000 && numChildren == 0)
+    {
+      childCredit = 48042.00;
+    }
+    else 
+    {
+      childCredit = numChildren * 2000;
+    } 
+
   }  
 
 
