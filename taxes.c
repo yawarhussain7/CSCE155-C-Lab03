@@ -114,7 +114,10 @@ else if(agi >= 329851 && agi <= 418850)
     {
       childCredit = numChildren * 2000;
     } 
-
+  
+     tax = agi * (32.0 / 100);
+ 
+     totalTax = 67206 + tax * (agi - 329851);
   }  
 
 
