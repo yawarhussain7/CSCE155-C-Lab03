@@ -1,4 +1,5 @@
 /**
+ * Author Yawar Hussain
  * This program computes income taxes based on adjusted
  * gross income and a child tax credit.
  *
@@ -6,7 +7,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
 
   double agi = 0.0;
   char c = 'N';
@@ -17,18 +19,25 @@ int main(int argc, char **argv) {
 
   printf("Please enter your adjusted gross income (AGI): ");
   scanf("%lf", &agi);
-  //remove the "enter" endline character
-  getchar(); 
+  // remove the "enter" endline character
+  getchar();
 
   printf("Do you have any children? (Y) or (N)? ");
   c = getchar();
 
-  if(c == 'y' || c == 'Y') {
+  if (c == 'y' || c == 'Y')
+  {
     printf("How many children do you have? ");
     scanf("%d", &numChildren);
   }
 
-  //TODO: compute the tax, child credit, and total tax here
+  // TODO: compute the tax, child credit, and total tax here
+  if(agi >= 0 && agi <= 19900)
+  {
+    
+
+  }
+
 
   printf("AGI:          $%10.2f\n", agi);
   printf("Tax:          $%10.2f\n", tax);
