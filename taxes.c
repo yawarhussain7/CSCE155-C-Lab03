@@ -45,7 +45,7 @@ int main(int argc, char **argv)
     
     tax = agi * (10.0/100);
     totalTax = tax * (agi - 0);
-
+    tax = tax - childCredit;
   }
 
     else if(agi >= 19901 && agi <= 81050)
@@ -82,7 +82,7 @@ int main(int argc, char **argv)
     totalTax = 9328 + tax * (agi - 81050);
 
     tax = tax - childCredit;
-   
+    
   }
 
   else if(agi >= 172751 && agi <= 329850)
@@ -100,6 +100,7 @@ int main(int argc, char **argv)
     tax = agi * (24.0/100);
   
     totalTax = 29502 + tax * (agi - 172750);
+    tax = tax - childCredit;
   }
 
 else if(agi >= 329851 && agi <= 418850)
@@ -118,6 +119,7 @@ else if(agi >= 329851 && agi <= 418850)
      tax = agi * (32.0 / 100);
  
      totalTax = 67206 + tax * (agi - 329851);
+     tax = tax - childCredit;
   }  
 
 
