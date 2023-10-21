@@ -59,7 +59,9 @@ int main(int argc, char **argv)
       childCredit = numChildren * 2000;
     }
 
-
+    tax = agi * (12.0/100);
+ 
+    totalTax = 1990 + tax * (agi - 19900);
 
   }
 
