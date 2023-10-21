@@ -85,6 +85,15 @@ int main(int argc, char **argv)
    
   }
 
+  else if(agi >= 172751 && agi <= 329850)
+  {
+  
+ 
+  }
+
+
+
+
   printf("AGI:          $%10.2f\n", agi);
   printf("Tax:          $%10.2f\n", tax);
   printf("Child Credit: $%10.2f\n", childCredit);
