@@ -34,7 +34,15 @@ int main(int argc, char **argv)
   // TODO: compute the tax, child credit, and total tax here
   if(agi >= 0 && agi <= 19900)
   {
-    
+    if(agi >= 4000 && agi <= 20000 && numChildren == 1)
+    {
+      childCredit = numChildren * 0;
+    }
+    else 
+    {
+      childCredit = numChildren * 2000;
+    }
+
 
   }
 
