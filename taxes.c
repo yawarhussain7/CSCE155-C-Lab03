@@ -44,7 +44,7 @@ int main(int argc, char **argv)
     }
     
     tax = agi * (10.0/100);
-    
+    totalTax = tax * (agi - 0);
 
   }
 
